@@ -6,8 +6,9 @@ namespace Pi
     {
         static void Main(string[] args)
         {
-            Circle circle = new Circle(150f);
+            Circle circle = new Circle();
             circle.printRadius();
+            circle.checkPoints(10000000);
         }
     }
 }
